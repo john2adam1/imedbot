@@ -9,3 +9,4 @@ CREATE TABLE IF NOT EXISTS tickets (
     status TEXT DEFAULT 'pending' CHECK (status IN ('pending', 'answered')),
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
+    
